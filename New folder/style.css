@@ -1,0 +1,63 @@
+header{
+    display: flex;
+   justify-content: space-around;
+}
+.btn{
+    background-color: darkgreen;
+    color: white;
+    border-radius: 20px;
+}
+.h6color{
+    color: red;
+}
+
+.h6{
+    color: black;
+}
+.bg{
+    background-color: #f0fff0;
+    
+}
+.carditem{
+    margin-left: 80px;
+  align-items: center;
+  padding-top: 15px;
+  padding-bottom: 20px;
+    background-color: #f0fff0;
+
+}
+.carditem:hover{
+    transition: 0.4s;
+    background-color: white;
+  box-shadow: -1px 6px 20px -4px rgba(0, 0, 0, 0.16);
+  -webkit-box-shadow: -1px 6px 20px -4px rgba(0, 0, 0, 0.16);
+  -moz-box-shadow: -1px 6px 20px -4px rgba(0, 0, 0, 0.16);
+}
+.col-md-3{
+    margin-left: 70px;
+}
+.carditem2:hover{
+    transition: 0.7s;
+    background-color: white;
+  box-shadow: -4px 8px 20px -6px rgba(0, 0, 0, 0.16);
+  -webkit-box-shadow: -4px 8px 20px -6px rgba(0, 0, 0, 0.16);
+  -moz-box-shadow: -4px 8px 20px -6px rgba(0, 0, 0, 0.16);
+  transform: scale(1.1);
+}
+.carditem2{
+    padding-bottom: 15px;
+    background-color: #f0fff0;
+    cursor: pointer;
+    transform: scale(1);
+    border: none;
+    box-shadow: -1px 5px 18px -4px rgba(0, 0, 0, 0.16);
+    -webkit-box-shadow: -1px 5px 18px -4px rgba(0, 0, 0, 0.16);
+    -moz-box-shadow: -1px 5px 18px -4px rgba(0, 0, 0, 0.16);
+    transition: 0.2s;
+}
+ul{
+    list-style: none;
+}
+.nav-item{
+    margin-right: 1rem;
+}
